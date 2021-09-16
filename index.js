@@ -12,4 +12,4 @@ let timerId = setInterval(trafficLights, 1000);
 setTimeout(() => {
   clearInterval(timerId);
   alert('stop');
-}, 39000);
+}, 20000);
